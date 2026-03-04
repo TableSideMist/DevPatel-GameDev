@@ -390,6 +390,8 @@ main {
 
   .header-inner {
     flex-wrap: wrap;
+    justify-content: center;
+    max-width: 900px;
   }
 
   .nav {
@@ -397,7 +399,8 @@ main {
     display: block !important;
     border: none;
     padding: 0;
-    margin-left: 0;
+    margin: 0 auto;
+    max-width: 900px;
   }
 
   .nav[hidden] {
