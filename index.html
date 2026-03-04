@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Dev Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to Content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#" class="logo" aria-label="Home">Portfolio</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span class="menu-text">Open Menu</span>
+        <span class="menu-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+    <nav id="nav-menu" class="nav" aria-label="Main navigation" hidden>
+      <ul class="nav-list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#games">Games</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#press">Press</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="hero-name"><em>Your Name</em> is a game developer based in [Your City].</h1>
+        <p class="hero-tagline">Currently <em>[Your Role]</em> at <em>[Company/Studio]</em>. Previously <em>[Past Company]</em> and <em>[Past Company]</em>.</p>
+        <p class="hero-desc">I specialize in [your focus: e.g. gameplay systems, narrative design, tools]. Outside of shipping games, I [hobby or side focus].</p>
+      </div>
+    </section>
+
+    <section id="about" class="section section-about">
+      <h2 class="section-label"><em>About</em></h2>
+      <div class="section-content">
+        <p>Short bio: your background, what you care about in game dev, and what drives you. Keep it personal and concise so visitors get a clear sense of who you are.</p>
+      </div>
+    </section>
+
+    <section id="games" class="section section-projects">
+      <h2 class="section-label"><em>Games</em></h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-media">
+            <div class="project-placeholder" aria-hidden="true">Project 1</div>
+          </div>
+          <div class="project-info">
+            <h3>Project Title</h3>
+            <p>Short description: platform, role, tech, or highlight. One or two lines.</p>
+            <a href="#" class="project-link">View project</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-media">
+            <div class="project-placeholder" aria-hidden="true">Project 2</div>
+          </div>
+          <div class="project-info">
+            <h3>Project Title</h3>
+            <p>Short description: platform, role, tech, or highlight. One or two lines.</p>
+            <a href="#" class="project-link">View project</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-media">
+            <div class="project-placeholder" aria-hidden="true">Project 3</div>
+          </div>
+          <div class="project-info">
+            <h3>Project Title</h3>
+            <p>Short description: platform, role, tech, or highlight. One or two lines.</p>
+            <a href="#" class="project-link">View project</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-contact">
+      <h2 class="section-label"><em>Contact</em></h2>
+      <div class="section-content contact-content">
+        <p>Write me an email or message me on LinkedIn.</p>
+        <a href="mailto:you@example.com" class="btn-contact">Contact Me</a>
+      </div>
+    </section>
+
+    <section id="press" class="section section-press">
+      <h2 class="section-label"><em>Press</em></h2>
+      <div class="section-content">
+        <p>Press mentions, interviews, and features. Add links or quotes here.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Your Name</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
