@@ -169,6 +169,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: var(--space-sm);
+  align-items: center;
 }
 
 .nav-list a {
@@ -198,6 +199,8 @@ main {
 
 .hero-content {
   max-width: var(--max-width);
+  margin: 0 auto;
+  text-align: center;
 }
 
 .hero-name {
@@ -394,7 +397,7 @@ main {
     display: block !important;
     border: none;
     padding: 0;
-    margin-left: auto;
+    margin-left: 0;
   }
 
   .nav[hidden] {
@@ -404,6 +407,7 @@ main {
   .nav-list {
     flex-direction: row;
     gap: var(--space-lg);
+    justify-content: center;
   }
 
   .nav-list a {
